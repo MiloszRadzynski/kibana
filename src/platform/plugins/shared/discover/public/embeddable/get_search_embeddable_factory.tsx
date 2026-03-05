@@ -44,8 +44,8 @@ import type { SearchEmbeddableApi } from './types';
 import { deserializeState, serializeState } from './utils/serialization_utils';
 import { BaseAppWrapper } from '../context_awareness';
 import { ScopedServicesProvider } from '../components/scoped_services_provider';
-import { isFieldStatsMode } from './utils/is_field_stats_mode';
 import { isTabDeleted } from './utils/is_tab_deleted';
+import { isFieldStatsMode } from './utils/is_field_stats_mode';
 
 export const getSearchEmbeddableFactory = ({
   startServices,
